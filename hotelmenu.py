@@ -41,46 +41,46 @@ if cat=="beverage":
      ref=input("\nDo you want to order more (yes/no)\n")
      if ref=="no":
         count=0
-    print("your cart: ",item)
+    print("\nyour cart: ",item)
     # print("Total bill :", ftotal)    
 elif cat=="burger":
-    print("Things available to try in burgers")
+    print("\nThings available to try in burgers")
     print("chicken burger : 90rs\nveg burger : 70rs")
     while count==1:
      item1=input("Add the item to order\n")
      item.append(item1)
      rate=menu["burger"][item1]    
      ftotal=ftotal+int(rate)
-     ref=input("Do you want to order more (yes/no)\n")
+     ref=input("\nDo you want to order more (yes/no)\n")
      if ref=="no":
         count=0
-    print("your cart: ",item)
+    print("\nyour cart: ",item)
     # print("Total bill :", total)    
 elif cat=="biryani":
-    print("Things to try in BIRYANI")
+    print("\nThings to try in BIRYANI")
     print("chicken biryani : 150rs\nmushroom biryani : 130rs\negg biryani : 100rs")
     while count==1:
      item1=input("Add the item to order\n")
      item.append(item1)
      rate=menu["biryani"][item1]      
      ftotal=ftotal+int(rate)
-     ref=input("Do you want to order more (yes/no)\n")
+     ref=input("\nDo you want to order more (yes/no)\n")
      if ref=="no":
         count=0
-    print("your cart: ",item)
+    print("\nyour cart: ",item)
     # print("Total bill :", total)    
 else:
-    print("Things to try in pizza")
+    print("\nThings to try in pizza")
     print("chicken pizza big : 350rs\nchicken pizza small : 250rs\nmushroom pizza : 230rs")   
     while count==1:
      item1=input("Add the item to order\n")
      item.append(item1)
      rate=menu["pizza"][item1]      
      ftotal=ftotal+int(rate)
-     ref=input("Do you want to order more (yes/no)\n")
+     ref=input("\nDo you want to order more (yes/no)\n")
      if ref=="no":
         count=0 
-    print("your cart: ",item)
+    print("\nyour cart: ",item)
     # print("Total bill :", total)     
 
 
