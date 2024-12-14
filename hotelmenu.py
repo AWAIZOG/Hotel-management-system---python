@@ -1,24 +1,24 @@
 
 #hotel menu project
 menu={
-    "Beverage":{"lachi":"500",
-                "faluda":"800",
-                "cold coffee":"600",
-                "mango juice":"500",
-                "orange juice":"600",
-                "apple juice":"700"
+    "Beverage":{"lachi":"600",
+                "faluda":"700",
+                "cold coffee":"800",
+                "mango juice":"600",
+                "orange juice":"700",
+                "apple juice":"800"
     },
-    "burger":{"chicken burger":"900",
-              "veg burger":"700"
+    "burger":{"chicken burger":"1000",
+              "veg burger":"800"
     },
-    "biryani":{"chicken biryani":"1500",
-               "mushroom biryani":"1300",
-               "egg biryani":"1000"
+    "biryani":{"chicken biryani":"1400",
+               "mushroom biryani":"1200",
+               "egg biryani":"900"
     
     },
-    "pizza":{"chicken pizza big":"3500",
-             "chicken pizza small":"2500",
-             "mushroom pizza":"2300"
+    "pizza":{"chicken pizza big":"3400",
+             "chicken pizza small":"2400",
+             "mushroom pizza":"2200"
 
     }
 }
